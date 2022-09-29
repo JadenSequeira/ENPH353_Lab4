@@ -1,0 +1,22 @@
+\hypertarget{namespaceSIFT__app}{}\doxysection{S\+I\+F\+T\+\_\+app Namespace Reference}
+\label{namespaceSIFT__app}\index{SIFT\_app@{SIFT\_app}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classSIFT__app_1_1My__App}{My\+\_\+\+App}}
+\begin{DoxyCompactList}\small\item\em Object identification using the webcam (requires a User Interface) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceSIFT__app_a152920a3a752fc132db2c887ede32511}\label{namespaceSIFT__app_a152920a3a752fc132db2c887ede32511}} 
+{\bfseries app} = Qt\+Widgets.\+Q\+Application(sys.\+argv)
+\item 
+\mbox{\Hypertarget{namespaceSIFT__app_a26fb6796f85b0afe6544df966b41f298}\label{namespaceSIFT__app_a26fb6796f85b0afe6544df966b41f298}} 
+{\bfseries my\+App} = \mbox{\hyperlink{classSIFT__app_1_1My__App}{My\+\_\+\+App}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sift transform and object identification script documentation
+
+The following script implements object identification through the webcam using the S\+I\+FT algorithm. The \mbox{\hyperlink{classSIFT__app_1_1My__App}{My\+\_\+\+App}} class can be used to set up the backend of a user interface with two pushbuttons and two labels. It then sets up the camera feed, enables access to an image for object identification, and then attempts to identify the object in the webcam. If the identification is strong enough, a homography is then displayed. 
